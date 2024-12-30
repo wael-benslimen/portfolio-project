@@ -1,0 +1,26 @@
+User Story:
+* home page
+-as a user i see a home page containing a navbar a photo and the name of the dev 
+-i can click on the download cv button to download the dev s cv
+-i can click the contact me button to get to the contact me page fast
+* about me 
+-as a user i see the about me page containing info about the dev
+
+* skills
+-as a user i see the skils page containing a bunch of the dev s skills
+-i can click on the cards to unravel there content
+
+* projects
+as a user i can see the projects list containing project symples made by the dev
+
+* certifications
+
+-as a user i can see the certifications page containing the dev s certificates
+
+*contact me 
+
+-as a user i see the contact me containing te contact form and three icons
+-i can click the send button to send the msg
+-i can click one of the icons to get to one of the dev s social media
+
+
