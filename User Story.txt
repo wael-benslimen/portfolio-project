@@ -1,7 +1,7 @@
 User Story:
 * home page
 -as a user i see a home page containing a navbar a photo and the name of the dev 
--i can click on the download cv button to download the dev s cv
+-i can click on the download cv button to download the dev's cv
 -i can click the contact me button to get to the contact me page fast
 * about me 
 -as a user i see the about me page containing info about the dev
