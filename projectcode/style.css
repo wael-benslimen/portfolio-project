@@ -160,3 +160,101 @@ nav a{
     margin-bottom: 1rem;
     color: azure;
 }
+/* skills section */
+.white{
+    color: white;
+}
+.gray{
+    color: gray;
+}
+.gap{
+    gap: 1rem;
+}
+.card-1{
+    background-color: rgba(15, 23, 42, 0.9);
+    color: white; 
+    padding: 1rem;
+    border: 1px solid rgba(15, 23, 42, 0.9); 
+    width: 50%;
+    box-shadow: 0px 8px 32px rgba(255, 255, 255, 0.1)
+}
+.left{
+    width: 90%;
+}
+.right{
+    width: 90%;
+}
+.gold {
+    color: #e6af22;
+}
+.bold{
+    color: white;
+    font-weight: bold;
+}
+.bar{
+    background: white;
+    display: block;
+    height: 15px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: #e6af22;
+
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.javascript {
+    width: 85%;
+    animation: javascript 3s;
+}
+.bootstrap {
+    width: 70%;
+    animation: bootstrap 3s;
+}
+.Git {
+    width: 60%;
+    animation: Git 3s;
+}
+/* skill bars animations */
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+javascrip@keyframes bootstrap {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@keyframes Git {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
