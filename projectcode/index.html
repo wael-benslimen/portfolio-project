@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,63 +10,111 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
+
 <body>
     <nav>
         <ul>
-            <li><a href="#home" id="navLink1" onmouseover="navOver('navLink1')"  onmouseout="navOut('navLink1')">Home</a></li>
-            <li><a href="#about" id="navLink2"  onmouseover="navOver('navLink2')" onmouseout="navOut('navLink2')">About</a></li>
-            <li><a href="#skills" id="navLink3"  onmouseover="navOver('navLink3')" onmouseout="navOut('navLink3')">Skill</a></li>
-            <li><a href="#certification" id="navLink4"  onmouseover="navOver('navLink4')" onmouseout="navOut('navLink4')">Certifications</a></li>
-            <li><a href="#projects" id="navLink5"  onmouseover="navOver('navLink5')" onmouseout="navOut('navLink5')">Projects</a></li>
-            <li><a href="#contact" id="navLink6"  onmouseover="navOver('navLink6')" onmouseout="navOut('navLink6')">Contact</a></li>
+            <li><a href="#home" id="navLink1" onmouseover="navOver('navLink1')" onmouseout="navOut('navLink1')">Home</a>
+            </li>
+            <li><a href="#about" id="navLink2" onmouseover="navOver('navLink2')"
+                    onmouseout="navOut('navLink2')">About</a></li>
+            <li><a href="#skills" id="navLink3" onmouseover="navOver('navLink3')"
+                    onmouseout="navOut('navLink3')">Skill</a></li>
+            <li><a href="#certification" id="navLink4" onmouseover="navOver('navLink4')"
+                    onmouseout="navOut('navLink4')">Certifications</a></li>
+            <li><a href="#projects" id="navLink5" onmouseover="navOver('navLink5')"
+                    onmouseout="navOut('navLink5')">Projects</a></li>
+            <li><a href="#contact" id="navLink6" onmouseover="navOver('navLink6')"
+                    onmouseout="navOut('navLink6')">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        <section id="home">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>Abdallah Yessine <span>Kriaa</span></h1>
-                        <h2>Creative Software Developer</h2>
-                        <div class="hero-buttons">
-                            <a href="#" class="btn" onmouseover="buttonOver(this)" onmouseout="buttonOut(this)">
-                                <i class="fas fa-download"></i>
-                                Download CV
-                            </a>
-                            <a href="#contact" class="btn1" onmouseover="buttonIn(this)" onmouseout="buttonOute(this)">
-                                <i class="fas fa-envelope"></i>
-                                Contact Me
-                            </a>
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Abdallah Yessine <span>Kriaa</span></h1>
+                    <h2>Creative Software Developer</h2>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn" onmouseover="buttonOver(this)" onmouseout="buttonOut(this)">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <a href="#contact" class="btn1" onmouseover="buttonIn(this)" onmouseout="buttonOute(this)">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container" onmouseover="over(this)" onmouseout="out(this)">
+                        <img src="./assets/images/8df61b15-41b5-454d-b46e-592423873055.jpg"
+                            alt="Abdallah Yessine Kriaa">
+                    </div>
+                    <div class="badge1">OpenToWork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about me section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm Abdallah Yessine Kriaa, a passionate software development student at Coding Dojo. I'm
+                    dedicated to creating innovative solutions and constantly expanding my knowledge in the field of
+                    technology.</p>
+                <p>Currently pursuing my education in software development, I combine theoretical knowledge with
+                    practical experience through various projects and hands-on coding challenges.</p>
+                <p>I'm particularly interested in web development, and I'm always eager to learn new technologies and
+                    frameworks to enhance my skills and create better solutions.</p>
+            </div>
+        </div>
+    </section>
+    <!-- all the html inside the main and start with section and the section give it id to use in the link of the page and after that start with div  -->
+    <!-- skills section -->
+    <section id="skills">
+        <div>
+            <div class="d-flex flex-column justify-content-center">
+                <h1 class=" white hero-text align-self-center ">skills</h1>
+                <p class="align-self-center gray">Expertise and technologies I work with</p>
+                <div class=" d-flex flex-column align-self-center gap">
+                    <div class="left d-flex gap align-self-center">
+                        <div class="card-1">
+                            <p><img src="" alt="html/css"> <span class="bold">HTML/CSS</span></p>
+                            <span class="bar"><span class="html"></span></span>
+                            <p class="gold"><span>90</span>%</p>
+                            <p>Proficient in creating responsive and accessible web layouts.</p>
+                        </div>
+                        <div class="card-1">
+                            <p><img src="" alt="JS"> <span class="bold">JavaScript</span></p>
+                            <span class="bar"><span class="javascript"></span></span>
+                            <p class="gold"><span>85</span>%</p>
+                            <p>Experienced in modern ES6+ features and DOM manipulation.</p>
                         </div>
                     </div>
-                    <div class="hero-image">
-                        <div class="image-container" onmouseover="over(this)" onmouseout="out(this)">
-                            <img src="./assets/images/8df61b15-41b5-454d-b46e-592423873055.jpg" alt="Abdallah Yessine Kriaa">
+                    <div class="right d-flex align-self-center gap">
+                        <div class="card-1">
+                            <p><img src="" alt="html/css"> <span class="bold">BootStrap</span></p>
+                            <span class="bar"><span class="bootstrap"></span></span>
+                            <p class="gold"><span>70</span>%</p>
+                            <p>Skilled in rapid prototyping and responsive design with Bootstrap.</p>
                         </div>
-                        <div class="badge1">OpenToWork</div>
+                        <div class="card-1">
+                            <p><img src="" alt="html/css"> <span class="bold">Git</span></p>
+                            <span class="bar"><span class="Git"></span></span>
+                            <p class="gold"><span>60</span>%</p>
+                            <p>Experienced in version control and collaborative development.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-            <!-- about me section -->
-            <section id="about">
-                <div class="container">
-                    <h2>About Me</h2>
-                    <div class="about-content">
-                        <p>Hello! I'm Abdallah Yessine Kriaa, a passionate software development student at Coding Dojo. I'm dedicated to creating innovative solutions and constantly expanding my knowledge in the field of technology.</p>
-                        <p>Currently pursuing my education in software development, I combine theoretical knowledge with practical experience through various projects and hands-on coding challenges.</p>
-                        <p>I'm particularly interested in web development, and I'm always eager to learn new technologies and frameworks to enhance my skills and create better solutions.</p>
-                    </div>
-                </div>
-            </section>
-            <!-- all the html inside the main and start with section and the section give it id to use in the link of the page and after that start with div  -->
-
-    </main>
-
+        </div>
+    </section>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
