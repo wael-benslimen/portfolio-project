@@ -161,6 +161,9 @@ nav a{
     color: azure;
 }
 /* skills section */
+#skills{
+    align-content: center;
+}
 .white{
     color: white;
 }
@@ -270,6 +273,7 @@ nav a{
 /* projects section */
 #projects{
     color: white;
+    align-content: center;
 }
 .project-card{
     width: 21rem;
@@ -307,4 +311,18 @@ nav a{
     color: #e6af22;
     border-radius: 5px;
     padding: 0.1rem;
+}
+/* contact me section */
+#contact{
+    align-content: center;
+}
+form{
+    width: 70rem;
+    margin: 0 auto;
+}
+.form-sub{
+    width: 7rem;
+    align-self: center;
+    padding: 0.5rem;
+    border-radius: 15px;
 }
