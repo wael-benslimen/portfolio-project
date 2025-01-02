@@ -50,7 +50,9 @@ nav a{
     display: flex;
     align-items: center;
     padding-top: 5rem;
-    
+    position: relative;
+    background: linear-gradient(to bottom, #0f1729, #1a237e);
+    overflow: hidden;
 }
 .hero-content{
     display: flex;
