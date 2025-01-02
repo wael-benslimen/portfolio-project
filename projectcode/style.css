@@ -258,6 +258,14 @@ nav a{
         width: 60%;
     }
 }
+/* certif section */
+.center-text{
+    text-align: center;
+}
+
+
+
+
 
 /* projects section */
 #projects{
@@ -291,3 +299,4 @@ nav a{
     border-radius: 5px;
     padding: 0.5rem;
 }
+
