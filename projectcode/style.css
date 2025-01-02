@@ -480,13 +480,13 @@ input{
 .c2.in-view {
     opacity: 0;
     animation: fade 2s ease;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-fill-mode: forwards;
 }
 .c3.in-view {
     opacity: 0;
     animation: fade 2s ease;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 /* social libnks  */
@@ -500,7 +500,7 @@ input{
     font-size: 1.5rem;
     margin: 0 1rem;
 }
-/ footer */
+
 footer {
     text-align: center;
     padding: 2rem 0;
