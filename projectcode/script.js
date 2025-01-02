@@ -79,3 +79,4 @@ document.addEventListener("DOMContentLoaded", () => {
     allAnimatedElements.forEach((element) => observer.observe(element));
 
 }); 
+
