@@ -259,13 +259,58 @@ nav a{
     }
 }
 /* certif section */
-.center-text{
+#Certifications{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Certifications .con2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.certification-grid{
+    display: grid;
+    gap: 2rem;
+    margin: 2.5rem auto;
+}
+.certfication-card{
+    background-color:rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
     text-align: center;
+    padding: 2rem;
+}
+#Certifications h2{
+    font-size: 2.5rem;
+    color: #fbbf24;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.certfication-card h3{
+    color:  #fbbf24;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.certfication-card p{
+    color: white;
+    margin: 1.5rem;
 }
 
-
-
-
+.btn2{
+    background-color: #fbbf24;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 2px solid #fbbf24;
+    padding: 0.75rem 1.5rem;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    margin-top: 3.5rem;
+    text-decoration: none;
+}
 
 /* projects section */
 #projects{
