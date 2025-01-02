@@ -240,7 +240,7 @@ nav a{
         width: 85%;
     }
 }
-javascrip@keyframes bootstrap {
+@keyframes bootstrap {
     0% {
         width: 0%;
     }
@@ -257,4 +257,37 @@ javascrip@keyframes bootstrap {
     100% {
         width: 60%;
     }
+}
+
+/* projects section */
+#projects{
+    color: white;
+}
+.project-card{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 25rem;
+    height: fit-content;
+}
+.project-card img{
+    height: 10rem;
+    border-radius: 10px;
+}
+.maincontent{
+    background-color: #0f172a;
+    height: 70%;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.maincontent span{
+    background:rgba(230, 175, 34, 0.5);
+    color: #fbbf24;
+}
+.maincontent button{
+    width: 7rem;
+    background-color: transparent;
+    border: 1px solid #e6af22;
+    color: #e6af22;
+    border-radius: 5px;
+    padding: 0.5rem;
 }
