@@ -23,4 +23,6 @@ as a user i can see the projects list containing project symples made by the dev
 -i can click the send button to send the msg
 -i can click one of the icons to get to one of the dev s social media
 
+*footer
+as a user i can see the footer of the page containing a copyrights notice and displaying the creators name
 

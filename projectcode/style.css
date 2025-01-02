@@ -386,6 +386,10 @@ form{
     padding: 0.5rem;
     border-radius: 15px;
     align-self: center;
+    border: 1px solid #e6af22;
+    background: transparent;
+    color: #e6af22;
+    font-weight: bold;
 }
 textarea{
     height: 20rem;
