@@ -43,3 +43,13 @@ function navOver(id){
 function navOut(id){
     document.getElementById(id).style.color = "#e2e8f0";
 }
+
+function downloadFile(){
+    var link = document.createElement('a');
+    link.href = './assets/images/751826dddbf2011014c758a865c7df6b.jpg';
+    link.download = 'Abdallah-Yessine-Kriaa-CV.jpg';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+}
