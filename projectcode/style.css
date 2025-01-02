@@ -478,3 +478,22 @@ form{
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
+/* social libnks  */
+.soliacl-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.soliacl-links a{
+    color: #e2e8f0;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+/ footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: rgba(15, 23, 42, 0.9);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #aaacaf;
+}
