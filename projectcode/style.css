@@ -1,38 +1,40 @@
+/* Reset default styles */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /*remove default margin */
+    padding: 0;  /*remove default padding */
+    box-sizing: border-box;  /* makes element sizing include paddind and border */
 }
+/* Base Body styles main theme color and font */
 body {
-    font-family: 'Inter', sans-serif;
-    color:  #e2e8f0;
-    background: linear-gradient(to bottom , #0f1729,#1a237e
-    );
-    line-height: 1.6;
+    font-family: 'Inter', sans-serif; 
+    color:  #e2e8f0; 
+    background: linear-gradient(to bottom , #0f1729,#1a237e);
+    line-height: 1.6; /* line height between text */
 }
+/* layout container sets max widh and centers content */
 .container{
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 0 20px;
 }
+/* section default styling */
 section{
-    min-height: 80vh;
+    min-height: 80vh; 
     display: flex;
     align-items: center;
-    padding: 4rem 0;
-}
+    padding: 4rem 0;   /* top and bottom padding 4rem  and left right padding 0 */
+} 
 /* navbar */
 nav{
     position: fixed;
     width: 100%;
     background-color: rgba(15, 23, 42, 0.9);
-    z-index: 1000;
-    
+    z-index: 1000;  /* Ensure nav stays on top */             
 }
 nav ul{
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: center; 
     padding: 1rem 0;
 }
 nav li {
