@@ -371,8 +371,17 @@ form{
     padding: 0.5rem;
     border-radius: 15px;
 }
-
-
+/* social libnks  */
+.soliacl-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.soliacl-links a{
+    color: #e2e8f0;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
 /* footer */
 footer{
     text-align: center;
