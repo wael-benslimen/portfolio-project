@@ -284,9 +284,15 @@ nav a{
 }
 .maincontent{
     background-color: #272f49;
+    border-radius: 0px 0px 7px 7px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.maincontent.active{
     height: 70%;
     padding: 1rem;
-    border-radius: 0px 0px 7px 7px;
 }
 .maincontent span{
     background:rgba(230, 175, 34, 0.3);

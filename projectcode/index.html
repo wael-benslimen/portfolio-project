@@ -35,7 +35,8 @@
                     <h1>Abdallah Yessine <span>Kriaa</span></h1>
                     <h2>Creative Software Developer</h2>
                     <div class="hero-buttons">
-                        <a href="#" class="btn" onmouseover="buttonOver(this)" onmouseout="buttonOut(this)" onclick="downloadFile()">
+                        <a href="#" class="btn" onmouseover="buttonOver(this)" onmouseout="buttonOut(this)"
+                            onclick="downloadFile()">
                             <i class="fas fa-download"></i>
                             Download CV
                         </a>
@@ -133,8 +134,9 @@
             <p class="hero-text align-self-center gray">a group of project syples you can check</p>
             <div class="d-flex gap align-self-center">
                 <div class="project-card d-flex flex-column">
-                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="">
-                    <div class="maincontent d-flex flex-column gap">
+                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="" class="eve"
+                        onclick="expand('#content3')">
+                    <div class="maincontent d-flex flex-column gap" id="content3">
                         <p class="gold">Project 1</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
                         <p class="d-flex gap"><span>lung1</span> <span>lung2</span> <span>lung3</span></p>
@@ -142,17 +144,18 @@
                     </div>
                 </div>
                 <div class="project-card d-flex flex-column">
-                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="">
-                    <div class="maincontent d-flex flex-column gap">
-                        <p class="gold">Project 2</p>
+                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="" class="eve"
+                        onclick="expand('#content2')">
+                    <div class="maincontent d-flex flex-column gap" id="content2">
+                        <p class="gold hidden">Project 2</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
                         <p class="d-flex gap"><span>lung1</span> <span>lung2</span> <span>lung3</span></p>
                         <button><i class="fab fa-git-alt"></i> Code</button>
                     </div>
                 </div>
                 <div class="project-card d-flex flex-column">
-                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="">
-                    <div class="maincontent d-flex flex-column gap">
+                    <img src="./assets/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="" onclick="expand('#content1')">
+                    <div class="maincontent d-flex flex-column gap" id="content1">
                         <p class="gold">Project 3</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
                         <p class="d-flex gap"><span>lung1</span> <span>lung2</span> <span>lung3</span></p>
