@@ -211,18 +211,28 @@ nav a{
 }
 .html{
     width: 90%;
+    
+}
+.html.in-view{
     animation: html 3s;
 }
 .javascript {
     width: 85%;
+}
+.javascript.in-view{
     animation: javascript 3s;
 }
 .bootstrap {
     width: 70%;
+    
+}
+.bootstrap.in-view{
     animation: bootstrap 3s;
 }
 .Git {
     width: 60%;
+}
+.Git.in-view{
     animation: Git 3s;
 }
 /* skill bars animations */
@@ -370,4 +380,100 @@ form{
     align-self: center;
     padding: 0.5rem;
     border-radius: 15px;
+}
+
+/* page anim */
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fade-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fade-bottem {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.nav-bar{
+    animation: fade-bottem 1s ease;
+}
+.hero-text.in-view{
+    animation: fade-left 1s ease;
+}
+.hero-image.in-view{
+    animation: fade-right 1s ease;
+}
+.container.in-view{
+    animation: fade 2s ease;
+}
+.left.in-view{
+    animation: fade-left 1s ease;
+}
+.right.in-view{
+    animation: fade-right 1s ease;
+}
+.certification-grid.in-view{
+    animation: fade 2s ease;
+}
+.c1.in-view{
+    opacity: 0;
+    animation: fade 2s ease;
+    animation-fill-mode: forwards;
+}
+.c2.in-view {
+    opacity: 0;
+    animation: fade 2s ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.c3.in-view {
+    opacity: 0;
+    animation: fade 2s ease;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
