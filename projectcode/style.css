@@ -93,6 +93,7 @@ nav a{
     border-radius: 0.5rem;
 }
 .hero-buttons .btn1 {
+    text-align: center;
     display: inline-block;
     align-items: center;
     gap: 0.5rem;
@@ -372,14 +373,23 @@ nav a{
     align-content: center;
 }
 form{
-    width: 70rem;
+    width: 50%;
     margin: 0 auto;
 }
 .form-sub{
     width: 7rem;
-    align-self: center;
     padding: 0.5rem;
     border-radius: 15px;
+    align-self: center;
+}
+textarea{
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+input{
+    border-radius: 15px;
+        padding: 1rem;
 }
 
 
@@ -448,6 +458,7 @@ form{
 }
 .hero-image.in-view{
     animation: fade-right 1s ease;
+
 }
 .container.in-view{
     animation: fade 2s ease;
