@@ -19,7 +19,7 @@ body {
 }
 /* section default styling */
 section{
-    min-height: 80vh; 
+    min-height: 100vh; 
     display: flex;
     align-items: center;
     padding: 4rem 0;   /* top and bottom padding 4rem  and left right padding 0 */
