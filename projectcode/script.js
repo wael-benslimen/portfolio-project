@@ -43,14 +43,16 @@ function navOver(id) {
 function navOut(id) {
     document.getElementById(id).style.color = "#e2e8f0";
 }
-
-function downloadFile() {
-    var link = document.createElement('a');
-    link.href = './assets/images/751826dddbf2011014c758a865c7df6b.jpg';
-    link.download = 'Abdallah-Yessine-Kriaa-CV.jpg';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+// download the file when the download button is clikced
+// explination
+function downloadFile() {   // we create a function called downloadFile
+    var link = document.createElement('a'); // we declare variable link and we create and we declare a document that he provide access to the document's content and then we create element called a whish is a hyperlink
+    // we give it parenthese ('a') to call the elemnt a 
+    link.href = './assets/images/751826dddbf2011014c758a865c7df6b.jpg'; // we declare the link of the file that we want to download
+    link.download = 'Abdallah-Yessine-Kriaa-CV.jpg'; // we declare the name of the file that we want to download 
+    document.body.appendChild(link); // we append the link to the body of the document 
+    link.click(); // we click on the link 
+    document.body.removeChild(link);// we remove the link from the boidy of the document
 }
 
 function expand(id) {
