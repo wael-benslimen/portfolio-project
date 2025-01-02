@@ -51,7 +51,6 @@ function downloadFile() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-
 }
 
 function expand(id) {
