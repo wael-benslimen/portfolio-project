@@ -161,6 +161,9 @@ nav a{
     color: azure;
 }
 /* skills section */
+#skills{
+    align-content: center;
+}
 .white{
     color: white;
 }
@@ -315,26 +318,36 @@ nav a{
 /* projects section */
 #projects{
     color: white;
+    align-content: center;
 }
 .project-card{
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 25rem;
+    width: 21rem;
+    border-radius: 7px;
     height: fit-content;
+
 }
 .project-card img{
     height: 10rem;
-    border-radius: 10px;
+    border-radius: 7px 7px 0px 0px;
+
 }
 .maincontent{
-    background-color: #0f172a;
+    background-color: #272f49;
+    border-radius: 0px 0px 7px 7px;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.maincontent.active{
     height: 70%;
-    border-radius: 10px;
     padding: 1rem;
 }
 .maincontent span{
-    background:rgba(230, 175, 34, 0.5);
+    background:rgba(230, 175, 34, 0.3);
     color: #fbbf24;
+    border-radius: 7px;
+    padding: 0.5rem;
 }
 .maincontent button{
     width: 7rem;
@@ -342,5 +355,19 @@ nav a{
     border: 1px solid #e6af22;
     color: #e6af22;
     border-radius: 5px;
+    padding: 0.1rem;
+}
+/* contact me section */
+#contact{
+    align-content: center;
+}
+form{
+    width: 70rem;
+    margin: 0 auto;
+}
+.form-sub{
+    width: 7rem;
+    align-self: center;
     padding: 0.5rem;
+    border-radius: 15px;
 }
