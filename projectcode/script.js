@@ -48,8 +48,8 @@ function navOut(id) {
 function downloadFile() {   // we create a function called downloadFile
     var link = document.createElement('a'); // we declare variable link and we create and we declare a document that he provide access to the document's content and then we create element called a whish is a hyperlink
     // we give it parenthese ('a') to call the elemnt a 
-    link.href = './assets/images/751826dddbf2011014c758a865c7df6b.jpg'; // we declare the link of the file that we want to download
-    link.download = 'Abdallah-Yessine-Kriaa-CV.jpg'; // we declare the name of the file that we want to download 
+    link.href = './assets/images/Screenshot 2025-01-03 093933.png'; // we declare the link of the file that we want to download
+    link.download = 'benslimen-wael-CV.jpg'; // we declare the name of the file that we want to download 
     document.body.appendChild(link); // we append the link to the body of the document 
     link.click(); // we click on the link 
     document.body.removeChild(link);// we remove the link from the boidy of the document
@@ -60,16 +60,19 @@ function expand(id) {
     document.querySelector(id).style.padding = '1rem'
     element.style.transition = "all 0.3s ease";
 }
-
+// ensures that the code runs only after the entire HTML document has been loaded
 document.addEventListener("DOMContentLoaded", () => {
 
-    // determine if objects are within the viewport
+    // determine if objects are within the view
     const observer = new IntersectionObserver(entries => {
+        // iterates through each element that is currently being observed by the IntersectionObserver.
         entries.forEach(entry => {
             if (entry.isIntersecting) {
+                // add the .in-view class if the element is within the view
                 entry.target.classList.add('in-view');
                 return;
             }
+            // add the .in-view class if the element is out of view
             entry.target.classList.remove('in-view');
         });
     });
@@ -77,8 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get all the elements with the .animate class applied
     const allAnimatedElements = document.querySelectorAll('.animate');
 
-    // Add the observer to each of those elements
+    // iterates through each of the selected elements and adds them to the IntersectionObserver's list of targets
     allAnimatedElements.forEach((element) => observer.observe(element));
 
-}); 
+});
 
